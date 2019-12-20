@@ -1,0 +1,27 @@
+﻿body
+{
+    margin:0;
+    padding:0;
+}
+.menu{
+    background-color:white !important;
+    border-bottom:2px solid #c1a526;
+}
+.alt{
+    background-color:#222;
+    color:white;
+}
+.alt a{
+    color:burlywood;
+}
+#siluet{
+    height:20px;
+    background:url(siluet.png);
+    background-repeat:repeat-x;
+}
+#altMetin{
+    width:87%;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:justify;
+}

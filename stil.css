@@ -5,7 +5,7 @@
 }
 .menu{
     background-color:white !important;
-    border-bottom:2px solid #dd6c8e;
+    border-bottom:2px solid #c1a526;
 }
 .alt{
     background-color:#222;
@@ -14,14 +14,71 @@
 .alt a{
     color:burlywood;
 }
-#siluet{
-    height:20px;
-    background:url(siluet.png);
-    background-repeat:repeat-x;
+#siluet {
+    height: 20px;
+    background: url(siluet.png);
+    background-repeat: repeat-x;
 }
 #altMetin{
     width:87%;
     margin-right:auto;
     margin-left:auto;
     text-align:justify;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left !important;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
